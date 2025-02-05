@@ -1,0 +1,97 @@
+/* Default light mode styles */
+.App {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button {
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  border: none;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Dark mode styles */
+.App.dark {
+  background-color: #121212; /* A deeper, darker background for dark mode */
+  color: #e0e0e0; /* Light grey text for readability */
+}
+
+.App.dark button {
+  background-color: #616161; /* Slightly lighter button background for contrast */
+  color: white;
+}
+
+.App.dark button:hover {
+  background-color: #757575; /* A bit lighter on hover */
+}
+
+.toggle-btn {
+  background-color: #8b8b8b;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.toggle-btn:hover {
+  background-color: #999;
+}
+
+/* Task List Styles */
+.task-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task-list li {
+  padding: 12px;
+  margin: 8px 0;
+  background-color: #1f1f1f; /* Dark background for tasks */
+  border-radius: 8px;
+  border: 1px solid #333; /* Subtle border around tasks */
+}
+
+/* Light mode task list items */
+.App.light .task-list li {
+  background-color: #f4f4f4;
+  color: black;
+}
+
+/* Dark mode task list items */
+.App.dark .task-list li {
+  background-color: #2c2c2c; /* Slightly lighter dark background */
+  color: #e0e0e0; /* Light grey text */
+}
+
+.App.dark .task-list li button {
+  background-color: #ff4081; /* A bright contrasting color for remove button */
+  color: white;
+}
+
+.App.dark .task-list li button:hover {
+  background-color: #f50057; /* Hover effect for remove button */
+}
+
+/* Task List Item Remove Button */
+button {
+  background-color: #f44336;
+  color: white;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+button:hover {
+  background-color: #e53935;
+}
