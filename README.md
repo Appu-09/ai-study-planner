@@ -1,4 +1,6 @@
 ai-study-planner
+
+
 The AI Study Planner & Productivity Tracker is a full-stack web application designed to help students and professionals efficiently plan their study schedules, track progress, and enhance productivity. It leverages AI-powered task suggestions and smart prioritization to optimize learning workflows.
 
 Features :
