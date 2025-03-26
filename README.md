@@ -5,12 +5,19 @@ The AI Study Planner & Productivity Tracker is a full-stack web application desi
 
 Features :
 .Task Management: Add, edit, delete, and prioritize study tasks.
+
 .AI-Powered Suggestions: Get intelligent task recommendations based on study patterns.
+
 .Dark Mode & Light Mode: Seamless UI theme switching.
+
 .Task Notifications: Get reminders for pending or due tasks.
+
 .Task Sorting: Sort tasks by priority or due date.
+
 .User Authentication: Secure login and registration (upcoming feature).
+
 .Mobile Responsive: Optimized UI for various screen sizes.
+
 .Deployment: Hosted on Netlify for easy access.
 
 Future Enhancements :
